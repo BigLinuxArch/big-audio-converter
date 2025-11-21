@@ -6,12 +6,12 @@ pkgdesc="audio converter and simple editor"
 depends=('python' 'python-gobject' 'gtk4' 'ffmpeg' 'python-cairo' 'libadwaita' 'python-mpv')
 #makedepends=('')
 #optdepends=('')
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=25.10.21
+pkgrel=0819
 arch=('any')
 license=('MIT')
 url="https://github.com/biglinux/$pkgname"
-source=("git+${url}.git")
+source=("git+${url}.git#branch=stable-2025-10-21_05-13")
 md5sums=('SKIP')
 
 # Automatically detect and use the correct install file
